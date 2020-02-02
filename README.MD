@@ -11,6 +11,7 @@ d) port number
 Controllers:
 Network controller - used to operate with network nodes and whole networks
 Node controller - used to operate with separate nodes and creating network step by step.
+
      OPTION                           |  METHOD | MAPPING                                     | ADDITIONAL PARAMS
     - Create whole network in one step|   POST  | http://localhost:{port.number}/api/network/ |JSON in body
 	- Search for Networks             |   GET   | http://localhost:{port.number}/api/network/{networkId}
