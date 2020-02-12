@@ -1,3 +1,4 @@
+*PostgreSQL database is used here
 Launch instructions:
 1. go to src/main/resources/application.properties, configure
 a) database name
